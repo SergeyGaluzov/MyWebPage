@@ -1,0 +1,41 @@
+ *
+ {
+     padding: 0;
+     margin: 0;
+ }
+ .menu
+ {
+    padding: 7px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+    background: #fc0; /* Цвет фона */
+    display: flex;
+    justify-content: space-around;   
+}
+.menu a
+{
+  font-size: 120%;
+}
+.name
+{
+    padding-bottom: 10px; 
+    font-size: 150%; 
+    text-align: center;
+    color: pink;
+    background-color: rgb(125, 67, 200);
+}
+div .image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 600px;
+}
+body
+{
+    background-color: lightgreen;
+}
+body div
+{
+    color: indigo;
+}
