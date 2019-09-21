@@ -5,6 +5,31 @@
     <meta name="author" content="Sergey Galuzov">
     <meta name = "decription" content="Demonstration the Lab1 result (HTML basics)">
     <link rel="stylesheet" href="style.css">
+    <style>
+      h1,h2,h3,h4,h5,h6,h2 p
+      {
+        text-align: center;
+        color:darkmagenta;
+      }
+      #h_first
+      {
+        text-align: center;
+        color: red;
+      }
+      h2 p
+      {
+        color:black;
+      }
+      ul li ul, ul li ol
+      {
+        margin-left: 20px;
+        color:blue;
+      }
+      ul
+      {
+        color: brown;
+      }
+    </style>
     <title>Заголовки и списки</title>
   </head>
   <body>
@@ -15,7 +40,7 @@
           <a href="References_and_images.html">Ссылки и изображения</a> |
           <a href="tables.html">Таблицы (примеры использования)</a> 
       </div> 
-    <h1><p>Использование заголовков и списков</p></h1>
+    <h1 id="h_first"><p>Использование заголовков и списков</p></h1>
     <hr size = "4" color="black">
     <h2><p>Использование заголовков:</p></h2>
     <h1>Заголовок 1 уровня</h1>
@@ -23,10 +48,10 @@
     <h3>Заголовок 3 уровня</h3>    
     <h4>Заголовок 4 уровня</h4>
     <h5>Заголовок 5 уровня</h5>
-    <h6>Заголовок 6 уровня</h6>
+    <h6 style="margin-bottom: 2%;">Заголовок 6 уровня</h6>
     <hr size = "4" color="black">
     <h2><p>Использование списков:</p></h2>
-    <ul type = "square">
+    <ul style = "margin-left: 635px;" type = "square">
       <li>Маркированный список:
         <ul type = "disc">
           <li>Элемент маркированного списка №1</li>

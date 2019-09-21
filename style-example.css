@@ -1,0 +1,161 @@
+h1
+{
+    margin-left: 40px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30pt;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: rgb(110, 109, 109);
+}
+ul
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+hr
+{
+    margin-left: 28px; 
+    margin-right: 28px;
+}
+#menu li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 8px;
+}
+#menu
+{
+    text-align: right;
+    margin-right: 40px;
+}
+#menu li a
+{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    font-size: 130%;
+    font-weight: bold;
+}
+#menu li a:hover
+{
+    color:green;
+}
+.post
+{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+.post .details
+{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.post .details h2
+{
+    font-size: 360%;
+    font-weight: 500;
+}
+.post .details h2 a
+{
+    color: rgb(218, 14, 14);
+    text-decoration: none;
+}
+.post .details h2 a:hover
+{
+    color:green;
+}
+.post .details .info
+{
+    color: rgb(110, 109, 109);
+    font-size: 125%;
+    /* width: 400px; */
+}
+.post .details .info a
+{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed rgb(160, 160, 160);
+}
+.post .details .info a:hover
+{
+    color:green;
+}
+.post .body 
+{
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-left: 1px solid rgb(160, 160, 160);
+    margin-right: 40px;
+    font-size: 149%;
+}
+.post .body p
+{
+    margin-top: 0px;
+    line-height: 2;
+}
+#main
+{
+    margin-left: 28px;
+    margin-right: 40px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.col
+{
+    width: 30%;
+}
+.col p
+{
+    font-size: 150%;
+    line-height: 1.5;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+
+}
+h3
+{
+    font-size: 250%;
+    font-weight: normal;
+}
+.det a
+{
+    text-decoration: none;
+    color: rgb(218, 14, 14);
+}
+.det a:hover
+{
+    color:green;
+}
+#footer
+{
+    margin-left: 28px;
+    margin-right: 40px;
+    margin-top: 32px;
+    font-size: 150%;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+}
+#footer p
+{
+    margin-bottom: 32px;
+}
+#footer p a
+{
+    text-decoration: none;
+    color: rgb(218, 14, 14);
+}
+#footer p a:hover
+{
+    color: green;
+}

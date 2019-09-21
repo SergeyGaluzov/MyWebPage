@@ -5,10 +5,24 @@
     <meta name="author" content="Sergey Galuzov">
     <meta name = "decription" content="Demonstration the Lab1 result (HTML basics)">
     <link rel="stylesheet" href="style.css">
+    <style>
+      h1
+      {
+        text-align: center;
+        margin: 2%;
+        color: red;
+        font-weight: 800;
+      }
+      p, b, i
+      {
+        display: block;
+        text-align: center;
+      }
+    </style>
     <title>Font formatting</title>
 </head>
 <body>
-    <div class = "menu">
+    <div class = "menu" id = "div">
         <a href="index.html">Вернуться на главную страницу</a> |
         <a href="text_markup.html">Разметка страницы</a> |
         <a href="References_and_images.html">Ссылки и изображения</a> |
@@ -21,10 +35,10 @@
       <strong>&lt;strong&gt;</strong> или <strong>&lt;b&gt;</strong>. Отличие между ними состоит в том, что первый тег определяет текст
       как важный, что влияет на поисковую выдачу сайта, а второй тег просто делает текст жирным. Внешне между ними разницы нет.
     </p>
-    <p>
+    <p style = "margin-bottom: 10px;">
       Примеры использования тегов <strong>&lt;strong&gt;</strong> и <strong>&lt;b&gt;</strong>:
     </p>
-    <strong>Текст, выделенный жирным шрифтом с помощью тега &lt;strong&gt; </strong>
+    <strong style="text-align: center; display: block;">Текст, выделенный жирным шрифтом с помощью тега &lt;strong&gt; </strong>
     <br>
     <b>Текст, выделенный жирным шрифтом с помощью тега &ltb&gt; </b>
     <p>
@@ -37,7 +51,7 @@
     <p>
       Примеры использования тегов <strong>&lt;em&gt;</strong> и <strong>&lt;i&gt;</strong>:
       <br>
-      <em>Текст, выделенный жирным шрифтом с помощью тега &lt;strong&gt; </em>
+      <em style = "margin-bottom: 10px; margin-top: 20px; display: block;">Текст, выделенный жирным шрифтом с помощью тега &lt;strong&gt; </em>
     <br>
     <i>Текст, выделенный жирным шрифтом с помощью тега &ltb&gt; </i>
     </p>
